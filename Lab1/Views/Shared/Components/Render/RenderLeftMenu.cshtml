@@ -1,0 +1,26 @@
+﻿@model IEnumerable<MenuItem>
+<div id="layoutSideNav_nav">
+	<nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+		<div class="sb-sidenav-menu">
+			<div class="sb-sidenav menu">
+				<div class="nav">
+					<div class="sb-sidenav-menu-heading"> Core </div>
+					<a class="nav-link" href="inex.html">
+						<div class="sb-nav-link-icon">
+							<i class="fas fa-tachometer-alt"></i> Dashboard
+						</div>
+					</a>
+					<div class="sb-sidenav-menu-heading"> Addons</div>
+					@foreach (var item in Model)
+					{
+						<a class="nav-link" href="@item.Url">
+							<div class="sb-nav-link-icon">
+								<i class="fas fa-chart-area"></i> @item.Name
+							</div>
+						</a>
+					}
+				</div>
+			</div>
+		</div>
+	</nav>
+</div>
