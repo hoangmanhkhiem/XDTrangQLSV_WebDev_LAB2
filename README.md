@@ -1,10 +1,10 @@
-# Lab 1 Practive
+# Lab 2 Practive
 
 Using C# for develop example website ASP .NET Core
 
 ## Topic
 
--  Displays the list of current students
--  Add new 1 student in the list
+- How to use web template layout for new struct website in lab 1 
+- The layout split from partial for smart using
 
-[Lab1.pdf](https://github.com/user-attachments/files/16810464/Lab1.pdf)
+[Lab2.pdf](https://github.com/user-attachments/files/16812022/Lab2.pdf)
